@@ -14,14 +14,18 @@ additionalText = 'audio 🔊'
 additionalText = 'video 🎥'}
 let texto1 = `*◉——⌈🔊 YOUTUBE PLAY 🔊⌋——◉*\n
 ❏ 📌 *Titulo:* ${yt_play[0].title}
+0:35 ━❍──────── - ${secondString(yt_play[0].duration.seconds)}
 ❏ 📆 *Publicado:* ${yt_play[0].ago}
-❏ ⌚ *Duracion:* ${secondString(yt_play[0].duration.seconds)}
-❏ 👀 *Vistas:* ${`${MilesNumber(yt_play[0].views)}`}
+┌───── •✧✧• ─────┐
+📆 *Publicado:* ${yt_play[0].ago}
+└───── •✧✧• ─────┘
+┌───── •✧✧• ─────┐
 ❏ 👤 *Autor:* ${yt_play[0].author.name}
-❏ ⏯️ *Canal:* ${yt_play[0].author.url}
-❏ 🆔 *ID:* ${yt_play[0].videoId}
+└───── •✧✧• ─────┘
+┌───── •✧✧• ─────┐
+📺 *Canal:* ${yt_play[0].author.url}
+└───── •✧✧• ─────┘ 
 ❏ 🪬 *Tipo:* ${yt_play[0].type}
-❏ 🔗 *Link:* ${yt_play[0].url}\n
 ❏ *_Enviando ${additionalText}, aguarde un momento．．．_*`.trim()
 conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m })
 if (command == 'play') {
@@ -47,7 +51,7 @@ let infoo = await ytdl.getInfo('https://youtu.be/' + __res[0].videoId)
 let ress = await ytdl.chooseFormat(infoo.formats, { filter: 'audioonly' })
 conn.sendMessage(m.chat, { audio: { url: ress.url }, fileName: __res[0].title + '.mp3', mimetype: 'audio/mp4' }, { quoted: m })  
 } catch {
-await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝙰𝚄𝙳𝙸𝙾*', m)}}}
+await conn.reply(m.chat, '*┊↳🎖️┊ 𝐇𝐚 𝐨𝐜𝐮𝐫𝐫𝐢𝐝𝐨 𝐮𝐧 𝐞𝐫𝐫𝐨𝐫, 𝐧𝐨 𝐩𝐮𝐝𝐢𝐦𝐨𝐬 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫 𝐭𝐮 𝐚𝐮𝐝𝐢𝐨*', m)}}}
 }  
 if (command == 'play2') {
 try {
@@ -73,9 +77,9 @@ let n3 = lolh.result.size
 let n4 = lolh.result.thumbnail
 await conn.sendMessage(m.chat, { video: { url: n2 }, fileName: `${n}.mp4`, mimetype: 'video/mp4', caption: `▢ 𝚃𝙸𝚃𝚄𝙻𝙾: ${n}\n▢ 𝙿𝙴𝚂𝙾 𝙳𝙴𝙻 𝚅𝙸𝙳𝙴𝙾: ${n3}`, thumbnail: await fetch(n4) }, { quoted: m })
 } catch {
-await conn.reply(m.chat, '*[❗] 𝙴𝚁𝚁𝙾𝚁 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙳𝙴𝚂𝙲𝙰𝚁𝙶𝙰𝚁 𝙴𝙻 𝚅𝙸𝙳𝙴𝙾*', m)}}}    
+await conn.reply(m.chat, '*┊↳🎖️┊ 𝐇𝐚 𝐨𝐜𝐮𝐫𝐫𝐢𝐝𝐨 𝐮𝐧 𝐞𝐫𝐫𝐨𝐫, 𝐧𝐨 𝐩𝐮𝐝𝐢𝐦𝐨𝐬 𝐝𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐫 𝐭𝐮 𝐯𝐢𝐝𝐞𝐨*', m)}}}    
 }} catch {
-throw "*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*"}
+throw "*┊↳🎖️┊ 𝐄𝐫𝐫𝐨𝐫, 𝐢𝐧𝐭𝐞𝐧𝐭𝐚𝐥𝐨 𝐦𝐚𝐬 𝐭𝐚𝐫𝐝𝐞!*"}
 }
 handler.help = ["play", "play2"].map((v) => v + " < busqueda >")
 handler.tags = ["downloader"]
