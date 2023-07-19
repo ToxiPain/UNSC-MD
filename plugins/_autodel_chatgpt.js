@@ -9,7 +9,7 @@ async function deleteInactiveUserData(m) {
 
   if (currentTime - lastUpdateTime > INACTIVITY_TIMEOUT_MS) {
     delete global.chatgpt.data.users[m.sender];
-    //console.log(`Datos del usuario ${m.sender} eliminados después de ${INACTIVITY_TIMEOUT_MS / 1000 / 60} minutos de inactividad.`);
+    //console.log(`Datos del usuario ${m.sender} eliminados después de ${INACTIVITY_TIMEOUT_MS / 1000 / 60} minutos de inactividad...`);
   }
 }
 
