@@ -34,14 +34,10 @@ ${readMore}
 ╭▬▬▬▬▬▬▬ *˚✯ཻ⸙ ̥•┉┉•
 *⊱✦•GENERAL ℹ️*
 ▋╭┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅   
-▋┋ ${usedPrefix}grupos
 ▋┋ ${usedPrefix}infobot
-▋┋ ${usedPrefix}labiblia
-▋┋ ${usedPrefix}animes
-▋┋ ${usedPrefix}speedtest
+▋┋ ${usedPrefix}grupos
 ▋┋ ${usedPrefix}grouplist
 ▋┋ ${usedPrefix}owner
-▋┋ ${usedPrefix}script
 ▋┋ ${usedPrefix}listprem
 ■█ℹ️█■▱▰▱▰▱█ℹ️█■
 ╭────────────────╮
@@ -84,35 +80,18 @@ ${readMore}
 ■█🎯█■▱▰▱▰▱█🎯█■
 ▋┋ ${usedPrefix}mates <noob / easy / medium / hard / extreme /impossible /impossible2>
 ▋┋ ${usedPrefix}ppt <papel / tijera /piedra>_
-▋┋ ${usedPrefix}prostituto <nombre / @tag>
-▋┋ ${usedPrefix}prostituta <nombre / @tag>
-▋┋ ${usedPrefix}gay2 <nombre / @tag>
-▋┋ ${usedPrefix}lesbiana <nombre / @tag>
-▋┋ ${usedPrefix}pajero <nombre / @tag>
-▋┋ ${usedPrefix}pajera <nombre / @tag>
-▋┋ ${usedPrefix}puto <nombre / @tag>
-▋┋ ${usedPrefix}puta <nombre / @tag>
-▋┋ ${usedPrefix}manco <nombre / @tag>
-▋┋ ${usedPrefix}manca <nombre / @tag>
-▋┋ ${usedPrefix}rata <nombre / @tag>
-▋┋ ${usedPrefix}love <nombre / @tag>
 ▋┋ ${usedPrefix}doxear <nombre / @tag>
-▋┋ ${usedPrefix}pregunta <texto>
 ▋┋ ${usedPrefix}suitpvp <@tag>
-▋┋ ${usedPrefix}slot <apuesta>
 ▋┋ ${usedPrefix}ttt <nombre sala>
 ▋┋ ${usedPrefix}delttt
 ▋┋ ${usedPrefix}acertijo
 ▋┋ ${usedPrefix}simi <texto>
 ▋┋ ${usedPrefix}top <texto>
-▋┋ ${usedPrefix}topgays
-▋┋ ${usedPrefix}topotakus
 ▋┋ ${usedPrefix}formarpareja
 ▋┋ ${usedPrefix}verdad
 ▋┋ ${usedPrefix}reto
 ▋┋ ${usedPrefix}cancion
 ▋┋ ${usedPrefix}pista
-▋┋ ${usedPrefix}akinator
 ▋┋ ${usedPrefix}wordfind
 ■█🎯█■▱▰▱▰▱█🎯█■
 ╭────────────────╮
@@ -167,14 +146,9 @@ ${readMore}
 ╰────────────────╯
 ■█🖍️█■▱▰▱▰▱█🖍️█■
 ▋┋ *--- STICKER ---*
-▋┋ ${usedPrefix}sticker <responder a imagen o video>
-▋┋ ${usedPrefix}sticker <enlace / link / url>
-▋┋ ${usedPrefix}sticker2 <responder a imagen o video>
-▋┋ ${usedPrefix}sticker2 <enlace / link / url>
+▋┋ ${usedPrefix}sticker <responder a imagen o video / link >
+▋┋ ${usedPrefix}sticker2 <responder a imagen o video / link >
 ▋┋ ${usedPrefix}s <responder a imagen o video>
-▋┋ ${usedPrefix}s <enlace / link / url>
-▋┋ ${usedPrefix}s2 <responder a imagen o video>
-▋┋ ${usedPrefix}s2 <enlace / link / url>
 ▋┋ ${usedPrefix}emojimix <emoji 1>&<emoji 2>
 ▋┋ ${usedPrefix}scircle <imagen>
 ▋┋ ${usedPrefix}sremovebg <imagen>
@@ -191,9 +165,7 @@ ${readMore}
 ▋┋ ${usedPrefix}slap <@tag>
 ▋┋ ${usedPrefix}kiss <@tag>
 ▋┋ ${usedPrefix}dado
-▋┋ ${usedPrefix}wm <packname> <author>
-▋┋ ${usedPrefix}stickermarker <efecto> <imagen>
-▋┋ ${usedPrefix}stickerfilter <efecto> <imagen>
+▋┋ ${usedPrefix}robar <packname> <author>
 ▋┋ *--- CONVERTIR ---*
 ▋┋ ${usedPrefix}toanime <imagen>
 ▋┋ ${usedPrefix}togifaud <video>
@@ -218,19 +190,13 @@ ${readMore}
 ▋┋ ${usedPrefix}clima <país> <ciudad>
 ▋┋ ${usedPrefix}encuesta <texto1|texto2...>
 ▋┋ ${usedPrefix}afk <motivo>
-▋┋ ${usedPrefix}ocr <responde a imagen>
-▋┋ ${usedPrefix}hd <responde a imagen>
-▋┋ ${usedPrefix}acortar <enlace / link / url>
 ▋┋ ${usedPrefix}calc <operacion math>
 ▋┋ ${usedPrefix}del <mensaje>
 ▋┋ ${usedPrefix}whatmusic <audio>
 ▋┋ ${usedPrefix}readqr <imagen (QR)>
 ▋┋ ${usedPrefix}qrcode <texto>
-▋┋ ${usedPrefix}readmore <texto1| texto2>
 ▋┋ ${usedPrefix}styletext <texto>
 ▋┋ ${usedPrefix}traducir <texto>
-▋┋ ${usedPrefix}nowa <numero>
-▋┋ ${usedPrefix}covid <pais>
 ▋┋ ${usedPrefix}horario
 ■█⚙️█■▱▰▱▰▱█⚙️█■
 ╭────────────────╮
@@ -242,10 +208,8 @@ ${readMore}
 ▋┋ ${usedPrefix}modapk <texto>
 ▋┋ ${usedPrefix}stickersearch <texto>
 ▋┋ ${usedPrefix}stickersearch2 <texto>
-▋┋ ${usedPrefix}xnxxsearch <texto>
 ▋┋ ${usedPrefix}animeinfo <texto>
 ▋┋ ${usedPrefix}google <texto>
-▋┋ ${usedPrefix}letra <texto>
 ▋┋ ${usedPrefix}wikipedia <texto>
 ▋┋ ${usedPrefix}ytsearch <texto>
 ▋┋ ${usedPrefix}playstore <texto>
