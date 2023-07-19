@@ -6,10 +6,9 @@ let text = `*𝐍𝐮𝐦𝐞𝐫𝐨 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨
 
 𝐄𝐧 𝐂𝐨𝐥𝐚𝐛𝐨𝐫𝐚𝐜𝐢ó𝐧 𝐜𝐨𝐧 𝐥𝐚 𝐂𝐨𝐦𝐮𝐧𝐢𝐝𝐚𝐝 𝐔𝐍𝐒𝐂 (𝐒𝐩𝐚𝐫𝐭𝐚𝐧)
 https://chat.whatsapp.com/L4KS1KNAMB1Lv98z9EXZSd
-⌜𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮, 𝘀𝗶 𝘁𝗶𝗲𝗻𝗲𝘀 𝘂𝗻 𝗿𝗼𝗹 𝘆 𝗾𝘂𝗶𝗲𝗿𝗲𝘀 𝗽𝗿𝗼𝗴𝗿𝗲𝘀𝗮𝗿. 𝗡𝗼𝘀𝗼𝘁𝗿𝗼𝘀 𝗽𝗼𝗱𝗲𝗺𝗼𝘀 𝗮𝘆𝘂𝗱𝗮𝗿𝘁𝗲, 𝘂𝗻𝗲 𝘁𝘂 𝗴𝗿𝘂𝗽𝗼 𝗮 𝗹𝗮 𝗰𝗮𝘂𝘀𝗮 #𝗨𝗡𝗦𝗖⌝•
-Comunidad de Union de Grupos de roleplay!`.trim()   
+⌜𝗥𝗲𝗰𝘂𝗲𝗿𝗱𝗮, 𝘀𝗶 𝘁𝗶𝗲𝗻𝗲𝘀 𝘂𝗻 𝗿𝗼𝗹 𝘆 𝗾𝘂𝗶𝗲𝗿𝗲𝘀 𝗽𝗿𝗼𝗴𝗿𝗲𝘀𝗮𝗿. 𝗡𝗼𝘀𝗼𝘁𝗿𝗼𝘀 𝗽𝗼𝗱𝗲𝗺𝗼𝘀 𝗮𝘆𝘂𝗱𝗮𝗿𝘁𝗲, 𝘂𝗻𝗲 𝘁𝘂 𝗴𝗿𝘂𝗽𝗼 𝗮 𝗹𝗮 𝗰𝗮𝘂𝘀𝗮 #𝗨𝗡𝗦𝗖⌝•`.trim()   
 let buttonMessage= {
-'document': { url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD` },
+'document': { url: `https://www.youtube.com/channel/UCE96GnKsR71fvtnLWlVfSpw` },
 'mimetype': `application/${document}`,
 'fileName': `「  𝑯𝒆𝒍𝒍𝒐 𝑾𝒐𝒓𝒍𝒅 」`,
 'fileLength': 99999999999999,
@@ -18,13 +17,13 @@ let buttonMessage= {
 'forwardingScore': 200,
 'isForwarded': true,
 'externalAdReply': {
-'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+'mediaUrl': 'https://www.youtube.com/channel/UCE96GnKsR71fvtnLWlVfSpw',
 'mediaType': 2,
 'previewType': 'pdf',
 'title': 'ᴇʟ ᴍᴇᴊᴏʀ ʙᴏᴛ ᴅᴇ ᴡʜᴀᴛsᴀᴘᴘ⁩',
 'body': wm,
 'thumbnail': imagen1,
-'sourceUrl': 'https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA' }},
+'sourceUrl': 'https://www.youtube.com/channel/UCE96GnKsR71fvtnLWlVfSpw' }},
 'caption': text,
 'footer': wm,
 //'buttons':[
