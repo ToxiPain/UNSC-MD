@@ -40,7 +40,8 @@ ${(conn.user.jid == global.conn.user.jid ? '' : `Jadibot de: https://wa.me/${glo
 *Quieres Convertirte en Bot?* 🤖
 _${usedPrefix}serbot_
 *Quieres Unir al bot a tu grupo?* 🖤
-_${usedPrefix}get_
+https://chat.whatsapp.com/BYuMitFSUwI9ejJNHZH3Hj
+Dentro usa: _${usedPrefix}get_
 ✦━─━─━─「✦」─━─━─━✦
 
 *CATEGORIA DE COMANDOS:*
