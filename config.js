@@ -31,10 +31,10 @@ global.suittag = ['5219993404349']
 global.prems = ['51995386439'] 
 global.reportes_solicitudes = ['5219992095479']
 
-global.packname = 'STICKERS!'
-global.author = '♛ 𝓤𝓝𝓢𝓒-𝓑𝓸𝓽 ♛'
-global.wm = '♛ 𝓤𝓝𝓢𝓒-𝓑𝓸𝓽 ♛'
-global.igfg = '♛ 𝓤𝓝𝓢𝓒-𝓑𝓸𝓽 ♛'
+global.packname = 'Stickers!'
+global.author = '🥀𝐔𝐍𝐒𝐂-𝐁𝐨𝐭🥀'
+global.wm = '🥀𝐔𝐍𝐒𝐂-𝐁𝐨𝐭🥀'
+global.igfg = '🥀𝐔𝐍𝐒𝐂-𝐁𝐨𝐭🥀'
 global.wait = '*⠋⠙⠿⠿⠶⠦⠄ Cargando... Por favor espere un momento*'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
@@ -54,9 +54,9 @@ global.mes = d.toLocaleDateString('es', { month: 'long' })
 global.año = d.toLocaleDateString('es', { year: 'numeric' })
 global.tiempo = d.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })
 //*****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ ♛ 𝓤𝓝𝓢𝓒-𝓑𝓸𝓽 ♛`
-global.gt = '♛ 𝓤𝓝𝓢𝓒-𝓑𝓸𝓽 ♛'
-global.mysticbot = '♛ 𝓤𝓝𝓢𝓒-𝓑𝓸𝓽 ♛'
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 🥀𝐔𝐍𝐒𝐂-𝐁𝐨𝐭🥀`
+global.gt = '🥀𝐔𝐍𝐒𝐂-𝐁𝐨𝐭🥀'
+global.mysticbot = '🥀𝐔𝐍𝐒𝐂-𝐁𝐨𝐭🥀'
 global.md = 'https://github.com/ToxiPain/UNSC-MD'
 global.mysticbot = 'https://github.com/ToxiPain/UNSC-MD'
 global.waitt = '*⠋⠙⠿⠿⠶⠦⠄ Cargando... Por favor espere un momento*'
